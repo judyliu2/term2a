@@ -1,0 +1,43 @@
+<html>
+<head>
+<form method="get" action="Checker.py">
+<title>Restaurant Checker</title>
+<style>
+h1{
+font-family:"Times News Roman";
+font-size:40px;
+color:#001133;
+background-color:#f9d5e5}
+body{
+background-color:#d5f4e6;
+background-image:url("15544912-Vintage-Restaurant-Background-With-Icons-Illustration-Stock-Vector.jpg");
+}
+a:hover{
+color:#b0aac0;
+}
+table{
+border-radius:12px;
+font-size:28px;
+background-color:#deeaee;
+border: 19px solid #c83349;
+padding: 9px}
+table th{
+padding: 9px;
+4px solid #3333cc;
+letter-spacing: 0.05em;
+height:200px;
+width: 200px}
+</style>
+<body>
+<h1><center>Please fill in all the following information to get the restaurant rating</center></h1>
+<center>
+<table>
+	<tr>
+	 <td>Restaurant Name:</td>
+	 <td><input type="text" name="restaurantname" size="30"></td>
+	</tr>
+</table><br>
+<input type="submit" name="check" value="Check Restaurant(s)">
+</center>
+</body>
+</html>

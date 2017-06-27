@@ -1,0 +1,7 @@
+<html>
+<body>
+This is a very <A HREF="http://www.micromind.com/stuy"> cool page</A>.<BR>
+This is <A HREF="second.html"> cooler</A>.<BR>
+This is an image:<img src="puppy.jpeg">
+</body>
+</html>

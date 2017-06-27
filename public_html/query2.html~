@@ -1,0 +1,7 @@
+<html> <head> Hello </head>
+<body>
+<form method ="get" action="#">
+This is:<input type="text" name="who"></br>
+<input type="radio"name="pet"/> Cat</br>
+<input type="radio"name="pet"/> Dog</br>
+You are : Cool<input type="checkbox" name="cool"> Not Cool

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+<title> Restaurants Near Stuyvesant </title>
+<style>
+h1{
+font-family:"Roboto";
+font-size:50px;
+color:#001133;
+background-color:#80ced6;
+}
+
+body{
+background-attachment: fixed;
+background-color:#d5f4e6;
+background-image:url("background3.jpg");
+}
+
+a:hover{
+color:#b0aac0;
+}
+
+table{
+background-color:#deeaee;
+border-radius: 12px;
+border: 19px solid RoyalBlue; 
+}
+
+table td{
+font-size:30px;
+padding: 9px;
+4px solid #deeaee;
+letter-spacing: 0.05em;
+height:200px;
+width: 200px}
+
+ul {font-family:"Roboto";
+    font-size:25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #deeaee;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: RoyalBlue;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: RoyalBlue;
+    color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<ul>
+  <li><a class="active" href="http://marge.stuy.edu/~judy.liu1/page1.html">Home</a></li>
+  <li><a href="http://marge.stuy.edu/~judy.liu1/checker.html">Restaurant Checker</a></li>
+  <li><a href="http://marge.stuy.edu/~judy.liu1/finder.html">Restaurant Finder</a></li>
+  <li><a href="http://marge.stuy.edu/~judy.liu1/near.html">Restaurants Near Stuy</a></li>
+</ul>
+<div style="margin-left:20%;padding:1px 16px;height:1000px;">
+
+<h1><center> Restaurants Near Stuy </center></h1>
+
+<center>
+<table>
+<td>
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<div style="width:500px;overflow:hidden;height:500px;max-width:100%;"><div id="canvas-for-google-map" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="3" src="https://www.google.com/maps/embed/v1/search?q=restaurants+near+stuyvesant+High+School&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="embedded-map-html" href="https://www.hostingreviews.website" id="get-data-for-map">see more</a><style>#canvas-for-google-map .text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=77373a5e-6e6c-c360-22bf-89763f4e2378&c=embedded-map-html&u=1465417269" defer="defer" async="async"></script>
+</td>
+</table>
+</center>
+
+</body>
+</html>
+

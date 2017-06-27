@@ -1,0 +1,7 @@
+CAMIS,DBA,BUILDING,STREET,ZIPCODE,PHONE,INSPECTION DATE,VIOLATION DESCRIPTION
+50018601,BELLA PIZZA & RESTAURANT,208,LIVINGSTON ST,11201,7185224100,5/4/2016,"Nuisance created or allowed to exist. Facility not free from unsafe, hazardous, offensive or annoying conditions."
+40366154,MICHAEL'S RESTAURANT,2929,AVENUE R,11229,7189987851,5/5/2016,"Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored."
+50008504,LAZZAT,1969,BATH AVE,11214,7186764800,2/17/2016,"Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit."
+41699177,FLETCHER'S,433,3 AVENUE,11215,3477632680,5/13/2016,"Food not protected from potential source of contamination during storage, preparation, transportation, display or service."
+50018904,STREETS RESTAURANT,53,BROADWAY,11249,7183842899,2/17/2016,Cold food item held above 41º F (smoked fish and reduced oxygen packaged foods above 38 ºF) except during necessary preparation.
+40535136,DON PACO  LOPEZ PANDERIA,470305,4 AVENUE,11220,7184927443,4/13/2016,Food worker does not use proper utensil to eliminate bare hand contact with food that will not receive adequate additional heat treatment.

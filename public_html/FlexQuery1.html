@@ -1,0 +1,45 @@
+<html>
+<head size=18><center> <b>SAT Scores</n< </center></head>
+<form method="get" action="FlexQuery1.py">
+<body bgcolor="99ccff">
+<center>
+<br>
+<table border="1" bgcolor="#7FFFD4">
+     <tr>
+       <td><b> Subject</b> </td>
+       <td><select name="scoretype" size="1">
+             <option> Math Mean </option>
+             <option> Reading Mean </option>
+             <option> Writing Mean </option>
+			 <option> Total Mean </option>
+	   </select>
+       </td>
+     </tr>
+     <tr>
+       <td><b> Number of Schools Shown:</b></td>
+       <td>
+	   <select name="numschools" size="1">
+		 <option> 1 </option>
+		 <option> 2 </option>
+		 <option> 3 </option>
+		 <option> 4 </option>
+		 <option> 5 </option>
+		 <option> 6 </option>
+		 <option> 7 </option>
+		 <option> 8 </option>
+		 <option> 9 </option>
+		 <option> 10 </option>
+       </td>
+     </tr>
+     <tr>
+       <td><b> Highest or Lowest Scores? </b></td>
+       <td>
+           Highest<input type="radio" name="toporbot" value="top" checked>
+           Lowest<input type="radio" name="toporbot" value="bot">
+       </td>
+     </tr>
+</table>
+<br>
+<input type="submit" name="done" value="gimme scores">
+</center>
+</body>

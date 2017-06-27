@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+table{background-color:lightblue;}
+</style>
+</head>
+<form method="get" action="http://homer.stuy.edu/pbrooks/allcgi.py">
+<center>
+<body style="background-color:lightblue;"> 
+<table border='1'>
+<tr>
+   <th colspan=2> Some interactive "controls"</th></tr>
+<tr>
+   <td> A text box:</td> <td>Name:<input type="text" name="who"></td></tr>
+<tr>
+   <td> A checkbox(pre-checked)</td><td><input type="checkbox"  name="box" checked> Subscribe for $800 a year? </td>
+</tr>
+<tr>
+ <td> A drop-down list(allowing multiple selections: </td><td>Self description:<select name="planet" size="1">
+	<option>BRILLIANT</option>
+	<option>Good-looking</option>
+	<option>Has Issues</option>
+</select></td>
+</tr>
+<tr>
+ <td>Text area</td>
+ <td><textarea rows="3" name="description" cols="20">Mr. Brooks is a ______"
+</textarea></td>
+</tr>
+<tr>
+ <td>A set of radio buttons</td>
+<td>
+<input type="radio" name="grade" value="Failing" checked>Failing
+<input type="radio" name="grade" value="Passing">Passing
+<input type="radio" name="grade" value="Excellent">Excellent
+</td></tr></table>
+<input type="submit" name="done" value="Fin.">
+</center>
+</form>
+</body>
+</head>
